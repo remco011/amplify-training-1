@@ -1,0 +1,5 @@
+{
+    "tableName": "remcosTable",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

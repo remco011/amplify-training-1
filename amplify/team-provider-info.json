@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyremco-dev-143112-authRole",
+      "UnauthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyremco-dev-143112-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::513547905716:role/amplify-amplifyremco-dev-143112-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-amplifyremco-dev-143112-deployment",
+      "UnauthRoleName": "amplify-amplifyremco-dev-143112-unauthRole",
+      "StackName": "amplify-amplifyremco-dev-143112",
+      "StackId": "arn:aws:cloudformation:eu-west-1:513547905716:stack/amplify-amplifyremco-dev-143112/366e0c00-87ee-11eb-b382-02c8e43179b5",
+      "AmplifyAppId": "d252e1l7ns8vk8"
+    },
+    "categories": {
+      "auth": {
+        "amplifyremcoc13c1c0c": {}
+      },
+      "function": {
+        "remcosPizza": {
+          "deploymentBucketName": "amplify-amplifyremco-dev-143112-deployment",
+          "s3Key": "amplify-builds/remcosPizza-764c304a714154624d5a-build.zip"
+        }
+      }
+    }
+  }
+}

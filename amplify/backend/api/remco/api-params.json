@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/pizzas",
+            "lambdaFunction": "remcosPizza",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/pizzas"
+        }
+    ],
+    "resourceName": "remco",
+    "apiName": "remco",
+    "functionArns": [
+        {
+            "lambdaFunction": "remcosPizza"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyremco-dev-143112-authRole",
+        "unAuthRoleName": "amplify-amplifyremco-dev-143112-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "remcosPizza",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
